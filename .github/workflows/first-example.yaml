@@ -10,4 +10,7 @@ jobs:
           run: echo "Welcome to my first workflow"
         
         - name: Read file
-          run: cat ./README.md
+          run: |
+            ls -ltra
+            chmod +r README.md
+            cat README.md
