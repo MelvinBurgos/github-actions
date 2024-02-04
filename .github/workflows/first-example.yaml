@@ -8,6 +8,9 @@ jobs:
         steps:
         - name: Welcome message
           run: echo "Welcome to my first workflow"
+
+        - name: checkout action
+          uses: actions/checkout@v4
         
         - name: Read file
           run: |
