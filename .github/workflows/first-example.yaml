@@ -12,5 +12,5 @@ jobs:
         - name: Read file
           run: |
             ls -ltra
-            chmod +r README.md
-            cat README.md
+            chmod +x script.sh
+            ./script.sh
