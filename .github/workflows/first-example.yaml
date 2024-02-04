@@ -10,4 +10,4 @@ jobs:
           run: echo "Welcome to my first workflow"
         
         - name: Read file
-          run: cat README.md
+          run: cat ./README.md
